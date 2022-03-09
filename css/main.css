@@ -1,0 +1,203 @@
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+
+  img {
+    max-height: 60%;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 3px;
+  }
+}
+
+
+
+
+body {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.42;
+  font-family: 'Roboto Condensed';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 95%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  background: linear-gradient(180deg, #ffffff, #fe9627 60%, #7726e1);
+
+}
+
+.container__hero {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 720px;
+
+}
+
+.header {
+  height:250px;
+  position: relative;
+  margin-bottom: 3.125rem;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  margin-right: 74px;
+  font-size: 48px;
+
+}
+
+.menu {
+  position: absolute;
+  top: 24px;
+  right: 0;
+}
+
+
+
+.menu__list {
+  margin: 0rem;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3.125rem;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+
+.menu__link {
+  font-size: .875rem;
+  transition: 0.4s;
+}
+
+.menu__link:hover {
+  color: #FF8C00;
+  transition: 0.3s;
+}
+
+.menu__link:after {
+  display: block;
+  left: 0;
+  width: 0;
+  height: .125rem;
+  background-color: #FF8C00;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.menu__link:hover:after {
+  color: #FF8C00;
+  width: 100%;
+}
+
+
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  text-align: center;
+  max-width: 1280px;
+}
+.adress__icon{
+  margin-right: 20px;
+}
+.contacts__adress{
+  margin-right: 76px;
+  font-size: 14px;
+}
+
+.contacts__number {
+  margin-right: 76px;
+
+  text-decoration: none;
+font-size: 24px;
+  margin-bottom: .25rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contacts__number:hover {
+  transition: 0.3s;
+  color: #FF8C00;
+}
+
+.contacts__feedback {
+  font-size: .8125rem;
+  text-decoration: underline;
+}
+
+.btn__hero {
+  width: 180px;
+  color: white;
+  background-color: #162223;
+  border-radius: 3.625rem;
+padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  transition: 0.8s;
+
+
+}
+
+.btn__hero:hover {
+  background-color: white;
+  transition: 0.4s;
+  color: #162223;
+}
