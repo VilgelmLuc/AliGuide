@@ -126,7 +126,7 @@ h4 {
 }
 
 .menu__link:hover {
-  color: #FF8C00;
+  color: #7224EA;
   transition: 0.3s;
 }
 
@@ -135,13 +135,13 @@ h4 {
   left: 0;
   width: 0;
   height: .125rem;
-  background-color: #FF8C00;
+  background-color: #7224EA;
   content: "";
   transition: width 0.3s ease-out;
 }
 
 .menu__link:hover:after {
-  color: #FF8C00;
+  color: #7224EA;
   width: 100%;
 }
 
@@ -181,7 +181,7 @@ h4 {
 
 .contacts__number:hover {
   transition: 0.3s;
-  color: #FF8C00;
+  color: #7224EA;
 }
 
 .contacts__feedback {
@@ -201,9 +201,8 @@ h4 {
   font-size: 1rem;
   transition: 0.4s;
   height: 20px;
-
-
 }
+
 
 .test {
   z-index: 10;
@@ -216,7 +215,7 @@ h4 {
   color: #162223;
 }
 
-.triangle {
+.btn__triangle {
   transition: 0.4s;
   z-index: 10;
   width: 0;
@@ -226,7 +225,7 @@ h4 {
   border-bottom: 20px solid transparent;
 }
 
-.test:hover .triangle {
+.test:hover .btn__triangle {
   width: 0;
   height: 0;
   border-top: 20px solid transparent;
@@ -289,3 +288,47 @@ h4 {
   left: 260px;
   z-index: 10;
 }
+
+/*    keis    */
+
+.container__keis {
+  padding-top: 100px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 650px;
+  display: flex;
+  text-align: justify;
+  position: relative;
+
+}
+.col__keis{
+  width: 50%;
+}
+.col__title{
+  font-size: 18px;
+  color: #ffffff;
+  background: url(../img/Subtract.png)  no-repeat ;
+}
+
+.col__img{
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+.col__img--desc{
+  margin: 0 0px 0 168px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 350px;
+}
+
+
+
+
+
+.col__left{
+  margin-left: 100px;
+}
+
