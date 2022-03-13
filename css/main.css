@@ -341,7 +341,7 @@ h4 {
   max-width: 350px;
 }
 
-.col__right::after {
+.col__right--problem::after {
   content: url(../img/Line.png);
   position: relative;
   bottom: 469px;
@@ -548,15 +548,17 @@ h4 {
 /*-----_____------_-__-why___----__-__-_*/
 
 
-.wrapper__benefits {
-  background-color: #7224EA;
+.wrapper__why{
+  margin: 0 auto;
+  
 }
 
 .container__why {
   width: 100%;
   max-width: 1280px;
-  height: 720px;
+  height: 920px;
   margin: 0 auto;
+  margin-bottom: 70px;
   position: relative;
 }
 
@@ -567,15 +569,214 @@ h4 {
   font-size: 32px;
   color: black;
   width: 1200px;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
-.problems__list{
-  padding-left: 15px;
+.col__problems {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 970px;
 }
-.problems__item{
+
+.problems__list {
+  padding-left: 15px;
+  right: 0px;
+}
+
+.problems__item {
   list-style-type: disc;
   width: 325px;
   margin-bottom: 40px;
-  padding-left: 30px;
+  padding-left: 25px;
 }
+
+.col__title--why-left {
+  padding: 5px 40px;
+  margin-bottom: 50px;
+}
+
+.col__title--why-left::before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: calc(100% - 8px);
+  left: 209px;
+  top: 4px;
+  bottom: 5px;
+  background: url(../img/circle.svg) 0 0/ 4px 4px repeat-y;
+  overflow: hidden;
+}
+
+.col__title--why-right {
+  margin-left: 60px;
+
+  width: 300px;
+  padding: 5px 30px;
+  margin-bottom: 50px;
+}
+
+.col__title--why-right::before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: calc(100% - 8px);
+  left: 358px;
+  top: 4px;
+  bottom: 5px;
+  background: url(../img/circle.svg) 0 0/ 4px 4px repeat-y;
+  overflow: hidden;
+}
+
+.benefits__list--why {
+  padding-left: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 700px;
+
+}
+
+.benefits__item--why {
+  width: 310px;
+  height: 60px;
+  display: flex;
+  margin:0 30px 50px 0;
+
+}
+
+
+
+.col__right--why {
+  position: relative;
+}
+
+.col__right--why::after {
+  content: "";
+  bottom: 300px;
+  left: 125px;
+  width: 720px;
+  position: absolute;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+
+
+
+.benefits__icon--why {
+  margin: 0 5px 45px 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 8px solid #FCBF14;
+  display: block;
+  position: relative;
+}
+
+.benefits__icon--why:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #651FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.benefits__desc--why{
+  padding-left: 10px;
+}
+
+.col__right--desc{
+  padding-left: 60px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+
+.btn__why{
+  padding-left: 60px;
+}
+
+.why__footer{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 300px;
+background-color: #7224EA;
+}
+
+
+.containeer__title--why-footer{
+  font-size: 32px;
+  width: 1280px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+
+}
+
+.benefits__list--why-footer{
+  width: 1280px;
+  padding-left: 20px;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+
+}
+
+.benefits__item--why-footer{
+  width: 500px;
+  height: 50px;
+}
+
+.benefits__icon--why-footer--left {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: block;
+  position: relative;
+}
+
+.benefits__icon--why-footer--left:before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  border-radius: 10%;
+  background:url(../img/house.svg) no-repeat;
+  position: absolute;
+  top: 59%;
+  left: 62%;
+
+}
+
+.benefits__icon--why-footer--right {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: block;
+  position: relative;
+}
+
+.benefits__icon--why-footer--right:before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  border-radius: 10%;
+  background:url(../img/factory.svg) no-repeat;
+  position: absolute;
+  top: 53%;
+  left: 62%;
+
+}
+.why-footer__item-desc{
+  padding-left: 30px;
+  padding-top: 20px;
+  }
+
+.benefits__desc--why-footer{
+padding-left: 0px;
+}
+
+
