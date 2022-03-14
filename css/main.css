@@ -64,6 +64,10 @@ h4 {
 }
 
 
+p{
+  margin: 0;
+}
+
 
 .decor__circles {
   position: relative;
@@ -840,7 +844,6 @@ h4 {
 .wrapper__process {
   background: #F5F5F5;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .container__process {
@@ -848,7 +851,6 @@ h4 {
   max-width: 1280px;
   height: 765px;
   margin: 0 auto;
-  margin-bottom: 70px;
   position: relative;
   background: url(../img/chel_meshen.png) center bottom no-repeat;
 }
@@ -966,3 +968,98 @@ box-sizing: border-box;
   left: 836px;
   
 }
+
+
+/*----__-___-results__---____-_-*/
+
+
+.container__results{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  height: 765px;
+
+
+}
+.container__title--results{
+  color: black;
+  height: 140px;
+  width: 700px;
+}
+.bag::after{
+  content: url(../img/paket_mish.png);
+  position: relative;
+  top: -250px;
+  left: 800px;
+  z-index:-10;
+}
+.results__keis{
+  background-color: #ffffff;
+  z-index: 10;
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 100%;
+  height: 360px;
+  display: flex;
+  border: 1px solid rgba(229, 229, 229, 0.6);
+box-sizing: border-box;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.08)
+}
+
+
+.results__keis--logo{
+  width:300px ;
+  background: url("../img/hm2.png") center no-repeat ;}
+
+
+.results__keis--content{
+width: 832px;
+}
+.container__title--total{
+  color: black;
+  height: 60px;
+  width: 830px;
+  z-index: 10;
+  font-size: 36px;
+  padding-top: 55px;
+}
+
+.container__subtitle--total{
+  width: 700px;
+  font-size: 16px;
+margin-bottom: 70px;
+}
+.total__item{
+  width: 430px;
+  align-items: center;
+
+}
+
+.icon__total{
+  margin: 0;
+}
+.total__numbers{
+  width: 176px;
+  font-size: 48px;
+  font-weight: bold;
+  margin:0   auto;
+height: 70px;
+text-align: center;
+display: inline-block;}
+
+.total__desc{
+  text-align: center;
+  font-size: 16px;
+  width: 176px;
+padding: auto;
+align-items: center;
+}
+
+
+
+
+
+.total__list{
+  display: flex;
+}
+
