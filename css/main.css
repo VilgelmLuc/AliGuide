@@ -1055,11 +1055,53 @@ padding: auto;
 align-items: center;
 }
 
-
-
-
-
 .total__list{
   display: flex;
+}
+
+
+/*---___-_-_-Start--_-______*/
+
+
+.wrapper__start{
+  background: #651FFF;
+
+}
+.container__start{
+  height: 300px;
+width: 100%;
+max-width: 1280px;
+margin: 0 auto;
+}
+
+.container__title--start{
+  margin-bottom: 60px;
+}
+
+
+.start__list {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+
+}
+.start__item{
+  align-items: center;
+
+}
+
+.decor__circle{
+  outline: 7px solid #ffffff;
+ 
+}
+
+.start__desc{
+  width: 120px;
+}
+
+.decor__arrow::after{
+content: url(../img/arrow.svg);
+
 }
 
