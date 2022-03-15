@@ -421,10 +421,13 @@ p{
 }
 
 .col__right--problem::after {
-  content: url(../img/Line.png);
-  position: relative;
-  bottom: 29.3125rem;
-  left: 35.625rem;
+  content: "";
+  bottom: 20.8125rem;
+  left: 14.5625rem;
+  width: 41.75rem;
+  position: absolute;
+  border: 0.0625rem solid #000000;
+  transform: rotate(90deg);
 }
 
 
