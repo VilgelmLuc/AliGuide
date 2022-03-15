@@ -1114,7 +1114,7 @@ content: url(../img/arrow.svg);
 
 
 .feedback {
-  background: url('../../img/mountain.jpg') center bottom, #979797;
+  background: url('../img/mountain.jpg') center bottom, #979797;
   background-size: cover;
   background-repeat: no-repeat;
 }
