@@ -520,7 +520,7 @@ p{
   left: -0.125rem;
   top: .25rem;
   bottom: .3125rem;
-  background: url('./img/circle.svg') 0 0/ .25rem .25rem repeat-y;
+  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
 }
 
 .tally::before {
@@ -531,7 +531,7 @@ p{
   left: 8.0625rem;
   top: .25rem;
   bottom: .3125rem;
-  background: url('./img/circle.svg') 0 0/ .25rem .25rem repeat-y;
+  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
   overflow: hidden;
 }
 
