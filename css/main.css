@@ -161,12 +161,15 @@ p{
   position: absolute;
   top: 24px;
   right: 0;
+  
 }
 
 
 
 .menu__list {
   margin: 0rem;
+  display: flex;
+  justify-content:space-around ;
 }
 
 .menu__item {
@@ -1233,4 +1236,43 @@ footer{
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  height: 330px;
+}
+
+.contacts__footer{
+top: 130px;
+position: relative;
+align-items: center;
+
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__info-item,
+.footer__text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__email {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: #000;
+}
+.footer__phone {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.38rem;
+  font-weight: 700;
+  color: #000;
+}
+.footer__icon {
+  font-size: 1.1rem;
+  margin-right: 16px;
+  align-items: center;
+}
+.icon-facebook {
+  font-size: 1.4rem;
 }
