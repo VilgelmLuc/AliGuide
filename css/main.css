@@ -1012,7 +1012,7 @@ box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.08)
 
 .results__keis--logo{
   width:300px ;
-  background: url("./img/hm2.png") center no-repeat ;}
+  background: url(../img/hm2.png) center no-repeat ;}
 
 
 .results__keis--content{
@@ -1114,7 +1114,7 @@ content: url(../img/arrow.svg);
 
 
 .feedback {
-  background: url('./img/mountain.jpg') center bottom, #979797;
+  background: url(../img/mountain.jpg) center bottom, #979797;
   background-size: cover;
   background-repeat: no-repeat;
 }
