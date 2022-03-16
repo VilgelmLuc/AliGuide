@@ -273,6 +273,8 @@ p{
 }
 
 .btn__hero {
+  box-sizing: content-box;
+
   z-index: 10;
   width: 10rem;
   color: white;
@@ -286,7 +288,7 @@ p{
   height: 1.25rem;
 }
 
-.test {
+.triangle {
   z-index: 10;
   display: flex;
 }
@@ -298,6 +300,8 @@ p{
 }
 
 .btn__triangle {
+  box-sizing: content-box;
+margin-right: 0px;
   transition: 0.4s;
   z-index: 10;
   width: 0;
