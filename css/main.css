@@ -286,7 +286,6 @@ p{
   height: 1.25rem;
 }
 
-
 .test {
   z-index: 10;
   display: flex;
@@ -353,6 +352,7 @@ p{
   text-transform: uppercase;
   padding-right: .625rem;
   height: 3.125rem;
+  position: relative;
 
 
 }
@@ -367,6 +367,7 @@ p{
 .hero__title-section::after {
   content: url(../img/devushka.png);
   position: absolute;
+  width: 100%;
   top: -1.875rem;
   left: 16.25rem;
   z-index: 10;
@@ -1103,9 +1104,13 @@ margin: 0 auto;
 .container__title--start{
   margin-bottom: 3.75rem;
 }
-
+@media screen and (min-width: 768px) {
+  .start__list {
+flex-direction: column; 
+ }
 
 .start__list {
+  flex-direction: row;
   display: flex;
   width: 80rem;
   margin: 0 auto;
@@ -1256,6 +1261,7 @@ select {
 
 /*---__-__-FOOTER___---___*/
 footer{
+
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;
@@ -1263,9 +1269,12 @@ footer{
 }
 
 .contacts__footer{
+display: flex;
 top: 8.125rem;
 position: relative;
 align-items: center;
+justify-content: space-between;
+width: 100%;
 
 }
 .footer__info {
