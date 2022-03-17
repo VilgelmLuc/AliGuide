@@ -1,65 +1,4 @@
-html {
-    font-size: 16px;
-  }
-  
-  @media screen and (max-width: 1600px) {
-    html {
-      font-size: 14px;
-    }
-  
-    img {
-      max-height: 60%;
-      max-width: 60%;
-    }
-  }
-  
-  @media screen and (max-width: 1280px) {
-    html {
-      font-size: 12px;
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    html {
-      font-size: 10px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    html {
-      font-size: 8px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    html {
-      font-size: 6px;
-    }
-  }
-  @media screen and (max-width: 320px) {
-    html {
-      font-size: 4px;
-    }
-  }
-  
 
-.nav-tabs { 
-    border-bottom: none;
-}
-
-
-  
-  
-  body {
-    color: black;
-    font-size: 1rem;
-    line-height: 1.42;
-    font-family: 'Roboto Condensed';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    width: 95%;
-    max-width: 120rem;
-    margin: 0 auto;
-    position: relative;
-  
-  }
 
   
   *, ::after, ::before {
@@ -103,6 +42,7 @@ html {
   
   .decor__circles {
     position: relative;
+    height: 100%;
   }
   
   .decor__circles::after,
@@ -120,8 +60,8 @@ html {
   .decor__circles::after {
     top: 50%;
     left: -0.5rem;
-    width: 118.75rem;
-    height: 118.75rem;
+    width: 100%;
+    /* height: 118.75rem; */
     border-width: 11.25rem;
     transform: translateY(-49%) rotate(-45deg);
   }
@@ -135,8 +75,8 @@ html {
   .decor__circles::before {
     top: 50%;
     left: 21.5625rem;
-    width: 71.875rem;
-    height: 71.875rem;
+    width: 100%;
+    height: 100%;
     border-width: 9.375rem;
     transform: translateY(-48%) rotate(-45deg);
   }
@@ -155,12 +95,12 @@ html {
     max-width: 120rem;
   }
   
-  .wrapper__hero {
+  /* .wrapper__hero {
     background: linear-gradient(0deg, #651FFF -1.81%, #FF5900 33.5%, rgba(253, 191, 15, 0.3) 84.16%, #fff 145.56%), #FDBF0F;
     z-index: 1;
     position: relative;
     overflow: hidden;
-  }
+  } */
   
   .container__hero {
     margin: 0 auto;
@@ -351,13 +291,7 @@ html {
     justify-self: end;
   }
   
-  .hero__content:after {
-    content: url(../img/4511.png);
-    position: absolute;
-    right: -1.875rem;
-    bottom: .9375rem;
-    transition: 0.3s;
-  }
+  
   
   .hero__img-section {
     right: -10.625rem;
@@ -384,14 +318,7 @@ html {
     max-width: 23.75rem;
   }
   
-  .hero__title-section::after {
-    content: url(../img/devushka.png);
-    position: absolute;
-    width: 100%;
-    top: -1.875rem;
-    left: 16.25rem;
-    z-index: 10;
-  }
+  
 
 
 
