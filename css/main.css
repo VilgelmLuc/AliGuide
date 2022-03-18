@@ -56,6 +56,10 @@ body {
 
 }
 
+body .modal-open{
+  height: 100vh;
+  overflow-y: hidden;}
+
 img {
   border-style: none;
   max-width: 100%;
@@ -89,6 +93,28 @@ p{
 }
 
 
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 120rem;
+}
+
+.wrapper__hero {
+  background: linear-gradient(360deg, rgba(109,34,242,1) 0%, rgba(196,67,97,1) 20%, rgba(254,155,44,1) 50%, rgba(255,244,215,1) 90%, rgba(255,255,255,1) 100%);;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.container__hero {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+  height: 45rem;
+
+}
 .decor__circles {
   position: relative;
 }
@@ -134,28 +160,6 @@ p{
     border-width: 8.125rem;
     left: 16.25rem;
   }
-}
-
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 120rem;
-}
-
-.wrapper__hero {
-  background: linear-gradient(360deg, rgba(109,34,242,1) 0%, rgba(196,67,97,1) 20%, rgba(254,155,44,1) 50%, rgba(255,244,215,1) 90%, rgba(255,255,255,1) 100%);;
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
-}
-
-.container__hero {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80rem;
-  height: 45rem;
-
 }
 
 
@@ -293,7 +297,7 @@ p{
   display: flex;
 }
 
-.test:hover .btn__hero {
+.triangle:hover .btn__hero {
   background-color: #FDBF0F;
   transition: 0.4s;
   color: #162223;
@@ -311,7 +315,7 @@ margin-right: 0px;
   border-bottom: 1.25rem solid transparent;
 }
 
-.test:hover .btn__triangle {
+.triangle:hover .btn__triangle {
   width: 0;
   height: 0;
   border-top: 1.25rem solid transparent;
@@ -337,11 +341,35 @@ margin-right: 0px;
 
 
 
-.hero__img-section {
+.hero__img--section {
   right: -10.625rem;
   top: -9.0625rem;
   position: relative;
+  animation-name: flip;
+  animation-duration: 5s ; 
+  animation-iteration-count: infinite;
 }
+
+
+.decision__item:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition: 1s;
+}
+
+@keyframes flip {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  50% {
+      transform: rotate(180deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
 
 .hero__title {
   font-size: 3.375rem;
@@ -882,8 +910,8 @@ margin-right: 0px;
 }
 .process__img--back{
   position: absolute;
-  top: 29%;
-  left: 33%;
+  top: 2.625rem;
+  left: 2.5rem;
 }
 
 .container__process {
