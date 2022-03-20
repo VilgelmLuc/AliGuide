@@ -511,30 +511,42 @@ div {
 .decission__icon--two::before {
   z-index: 10;
   top: 2.5rem;
+  width: 2.0625rem;
+  height: 2.0625rem;
   content: url(../img/elipseblack.svg);
   position: relative;
 }
 
 .decision__icon::after {
   z-index: 10;
-  top: -7.5rem;
+  top: -9.5rem;
   left: 3.75rem;
-  content: url(../img/1.svg);
+  content: "1";
   position: relative;
-
+  font-weight: 700;
+font-size: 9rem;
+line-height: 10.5625rem;
 }
 
 .decission__icon--two:after {
   z-index: 10;
-  top: -7.5rem;
+  top: -9.5rem;
   left: 3.75rem;
-  content: url(../img/2.svg);
+  content: "2";
   position: relative;
+  font-weight: 700;
+font-size: 9rem;
+line-height: 10.5625rem;
 }
+
+.decission__icon--two:hover::after,
+.decision__icon:hover::after {
+  color:#FDBF0F ;
+}
+
 
 .decision__item:hover,
 .col__img--desc:hover {
-  transform: scale(2);
   transition: 0.5s;
 }
 
@@ -565,26 +577,29 @@ div {
 }
 
 .tally::after {
-  position: absolute;
+  display: block;
   content: '';
-  width: .25rem;
-  height: calc(100% - .5rem);
-  left: -0.125rem;
-  top: .25rem;
-  bottom: .3125rem;
-  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
+  width: 4px;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  background: radial-gradient(at 100% 50%, transparent 2px, #651fff 2px, #651fff);
+  background-size: 4px 6px;
+  position: absolute;
+  top: 0;
+  right: -2px;
 }
 
 .tally::before {
-  position: absolute;
+  display: block;
   content: '';
-  width: .25rem;
-  height: calc(100% - .5rem);
-  left: 8.0625rem;
-  top: .25rem;
-  bottom: .3125rem;
-  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
-  overflow: hidden;
+  width: 4px;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+  background: radial-gradient(at 0% 50%, transparent 2px, #651fff 2px, #651fff);
+  background-size: 4px 6px;
+  position: absolute;
+  top: 0;
+  left: -2px;
 }
 
 
@@ -762,16 +777,16 @@ div {
   margin-bottom: 3.125rem;
 }
 
-.col__title--why-left::before {
-  position: absolute;
+.col__title--why-left::after {
+  display: block;
   content: '';
-  width: .25rem;
-  height: calc(100% - .5rem);
-  left: 13.0625rem;
-  top: .25rem;
-  bottom: .3125rem;
-  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
-  overflow: hidden;
+  width: 4px;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  background: radial-gradient(at 100% 50%, transparent 2px, #651fff 2px, #651fff);
+  background-size: 4px 6px;
+  position: absolute;
+  top: 0;
 }
 
 .col__title--why-right {
@@ -783,15 +798,17 @@ div {
 }
 
 .col__title--why-right::before {
-  position: absolute;
+  display: block;
   content: '';
-  width: .25rem;
-  height: calc(100% - .5rem);
-  left: 22.375rem;
-  top: .25rem;
-  bottom: .3125rem;
-  background: url(../img/circle.svg) 0 0/ .25rem .25rem repeat-y;
-  overflow: hidden;
+  width: 4px;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  background: radial-gradient(at 100% 50%, transparent 2px, #651fff 2px, #651fff);
+  background-size: 4px 6px;
+  position: absolute;
+  top: 0;
+  right: 4000px;
+  transform: rotate(180deg);
 }
 
 .benefits__list--why {

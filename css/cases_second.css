@@ -368,9 +368,11 @@
         color: #ffffff;
     
     }
-    .img__logo--boot{
+    .img-fluid{
         align-items: center;
     }
+
+
     .bag__boot::after{
         content: url(../img/paket_mish.png);
         position: relative;
