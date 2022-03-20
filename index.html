@@ -31,6 +31,10 @@
     <link rel="stylesheet" href="./css/normalize.css">
 
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
     <link rel="stylesheet" href="./css/modalwindow.css">
 
 
@@ -51,33 +55,43 @@
                         <a href="/index.html" class="logo">
                             Проводник
                         </a>
+                        <!-- Burger button -->
+                        <input type="checkbox" id="burgerBtn" class="header__burger-btn">
+                        <label for="burgerBtn" id="burgerBtnLabel" class="header__burger-label">
+                            <span></span>
+                        </label>
+                        <div class="header__burger-menu">
+                            <img src="./img/mishen_red.png" alt="">
+                        </div>
+                        
+
                         <nav class="menu">
                             <ul class="menu__list">
-                                <li class="menu__item menu__item_active"> <a href="/index.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">услуги
                                     </a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/service.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">Цены
                                     </a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">как
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">как
                                         это
                                         работает </a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">блог</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">О
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">О
                                         компании</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">производителям</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">проекты</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">контакты</a>
                                 </li>
                             </ul>
@@ -207,14 +221,15 @@
 
                         </ul>
                     </div>
-                    <div class="triangle triangle__benefits">
-                        <div class="btn__benefits ">
-                            <a>Скачать предложение</a>
-                        </div>
-                        <div class="benefits__triangle"></div>
+
+
+
+                </div>
+                <div class="triangle triangle__benefits">
+                    <div class="btn__benefits ">
+                        <a>Скачать предложение</a>
                     </div>
-
-
+                    <div class="benefits__triangle"></div>
                 </div>
                 <div class="benefits__img--wrapper">
                     <img src="./img/tel_krugi.svg" alt="">
@@ -402,9 +417,8 @@
                                 <div class="why-footer__item-desc--title">
                                     <h4>Небольшим интернет-магазинам </h4>
                                 </div>
-                                <div class="benefits__desc--why benefits__desc--why-footer "> С ограниченными ресурсами
-                                    и
-                                    бюджетом на рекламу.</div>
+                                <div class="benefits__desc--why benefits__desc--why-footer ">Готовы поставлять товар
+                                    реселлеру и не хотят заниматься продвижением товаров конечному покупателю.</div>
                             </div>
                         </li>
                     </ul>
@@ -519,29 +533,33 @@
                     </div>
 
                     <ul class="start__list">
-                        <li class="benefits__item--why start__item start__item--1 decor__arrow">
+                        <li class="benefits__item--why start__item start__item--1">
 
                             <div class="process__icon process__icon--1 decor__circle"> </div>
                             <div class="benefits__desc--why start__desc">
                                 <p>Заполните
                                     форму.</p>
                             </div>
+                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
                         </li>
-                        <li class="benefits__item--why start__item start__item--2 decor__arrow">
+                        <li class="benefits__item--why start__item start__item--2">
 
                             <div class="process__icon process__icon--2 decor__circle"> </div>
                             <div class="benefits__desc--why start__desc">
                                 <p>Обсудим ваши задачи
                                     с менеджером.</p>
                             </div>
+                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
+
                         </li>
-                        <li class="benefits__item--why start__item start__item--3 decor__arrow">
+                        <li class="benefits__item--why start__item start__item--3">
                             <div class="process__icon process__icon--3 decor__circle"> </div>
                             <div class="benefits__desc--why start__desc">
                                 <p>Сформируем
                                     пакет услуг.</p>
-
                             </div>
+                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
+
                         </li>
                         <li class="benefits__item--why start__item start__item--4">
                             <div class="process__icon process__icon--4 decor__circle"> </div>
@@ -713,6 +731,28 @@
                         </div>
 
                     </address>
+                    <!-- <div class="footer__burger"> -->
+
+                    <!-- Burger button -->
+                    <input type="checkbox" id="footerBurgerBtn" class="footer__burger-btn">
+                    <label for="footerBurgerBtn" id="footerBurgerBtnLabel" class="footer__burger-label">
+                        <span></span>
+                    </label>
+
+                    <!-- Burger menu -->
+                    <!-- <ul class="footer__burger-menu">
+            <li class="footer__burger-logo">Проводник</li>
+            <li><a href="#" class="footer__burger-link">Услуги</a></li>
+            <li><a href="#" class="footer__burger-link">Цены</a></li>
+            <li><a href="#" class="footer__burger-link">Как это работает</a></li>
+            <li><a href="#" class="footer__burger-link">Блог</a></li>
+            <li><a href="#" class="footer__burger-link">О компании</a></li>
+            <li><a href="#" class="footer__burger-link">Производителям</a></li>
+            <li><a href="#" class="footer__burger-link">Проекты</a></li>
+            <li><a href="#" class="footer__burger-link">Контакты</a></li>
+          </ul> -->
+
+                    <!-- </div> -->
                 </footer>
             </div>
         </div>
