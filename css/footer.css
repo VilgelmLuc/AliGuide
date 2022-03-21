@@ -1,0 +1,54 @@
+
+footer {
+
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    height: 20.625rem;
+  }
+  
+  .contacts__footer {
+    display: flex;
+    top: 8.125rem;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+  }
+  
+  .footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__info-item,
+  .footer__text {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .footer__email {
+    font-family: 'Roboto', sans-serif;
+    font-size: .88rem;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .footer__phone {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.38rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .footer__icon {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+  
+  .icon-facebook {
+    font-size: 1.4rem;
+  }

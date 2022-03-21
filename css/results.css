@@ -1,0 +1,97 @@
+
+
+
+.container__results {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    height: 47.8125rem;
+  
+  
+  }
+  
+  .container__title--results {
+    color: black;
+    height: 8.75rem;
+    width: 43.75rem;
+  }
+  
+  .bag::after {
+    content: url(../img/paket_mish.png);
+    position: relative;
+    top: -15.625rem;
+    left: 50rem;
+    z-index: -10;
+  }
+  
+  .results__keis {
+    background-color: #ffffff;
+    z-index: 10;
+    margin: 0 auto;
+    width: 73.125rem;
+    max-width: 100%;
+    height: 22.5rem;
+    display: flex;
+    border: .0625rem solid rgba(229, 229, 229, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0rem .375rem .75rem rgba(0, 0, 0, 0.14), 0rem 1rem 1.5rem rgba(0, 0, 0, 0.08)
+  }
+  
+  
+  .results__keis--logo {
+    width: 18.75rem;
+    background: url(../img/hm2.png) center no-repeat;
+  }
+  
+  
+  .results__keis--content {
+    width: 52rem;
+  }
+  
+  .container__title--total {
+    color: black;
+    height: 3.75rem;
+    width: 51.875rem;
+    z-index: 10;
+    font-size: 2.25rem;
+    padding-top: 3.4375rem;
+  }
+  
+  .container__subtitle--total {
+    width: 43.75rem;
+    font-size: 1rem;
+    margin-bottom: 4.375rem;
+  }
+  
+  .total__item {
+    width: 26.875rem;
+    align-items: center;
+  
+  }
+  
+  .icon__total {
+    margin: 0;
+  }
+  
+  .total__numbers {
+    width: 11rem;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 4.375rem;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .total__desc {
+    text-align: center;
+    font-size: 1rem;
+    width: 11rem;
+    padding: auto;
+    align-items: center;
+  }
+  
+  .total__list {
+    display: flex;
+  }
+  

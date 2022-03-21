@@ -1,0 +1,189 @@
+.container__keis {
+    padding-top: 5.625rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80rem;
+    height: 100%;
+    min-height: 40.625rem;
+    display: flex;
+    text-align: justify;
+    position: relative;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .col__keis {
+    flex: 1;
+  }
+  
+  
+  
+  .col__title {
+    z-index: 10;
+    height: 2.5rem;
+    width: 8.125rem;
+    display: flex;
+    margin-bottom: 1.875rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    color: #ffffff;
+    background: url(../img/Subtract.png) no-repeat;
+    position: relative;
+  }
+  
+  .col__img {
+    position: relative;
+    top: -5.625rem;
+    padding-right: 4.375rem;
+    text-align: end;
+    margin-bottom: 1.875rem;
+  }
+  
+  .col__img--desc {
+    margin: -3.125rem 0rem 0 10.5rem;
+    font-size: 1.125rem;
+    width: 100%;
+    max-width: 21.875rem;
+  }
+  
+  .col__right--problem::after {
+    content: "";
+    bottom: 20.8125rem;
+    left: 14.5625rem;
+    width: 41.75rem;
+    position: absolute;
+    border: 0.0625rem solid #000000;
+    transform: rotate(90deg);
+  }
+  
+  
+  
+  
+  
+  .col__left {
+    margin-left: 3.125rem;
+  }
+  
+  .col__subtitle {
+    padding-top: .625rem;
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  
+  .decision__item {
+    display: flex;
+    font-size: 1.125rem;
+    margin-bottom: 5rem;
+    height: 7.5rem;
+  }
+  
+  .decision__icon,
+  .decission__icon--two {
+    top: -2.5rem;
+    width: 30%;
+    margin-right: 3.125rem;
+    max-width: 7.5rem;
+    position: relative;
+  }
+  
+  .decision__icon::before,
+  .decission__icon--two::before {
+    z-index: 5;
+    top: 2.5rem;
+    width: 2.0625rem;
+    height: 2.0625rem;
+    content: url(../img/elipseblack.svg);
+    position: relative;
+  }
+  
+  .decision__icon::after {
+    z-index: 10;
+    top: -9.5rem;
+    left: 3.75rem;
+    content: "1";
+    position: relative;
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 10.5625rem;
+  }
+  
+  .decission__icon--two:after {
+    z-index: 10;
+    top: -9.5rem;
+    left: 3.75rem;
+    content: "2";
+    position: relative;
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 10.5625rem;
+  }
+  
+  .decission__icon--two:hover::after,
+  .decision__icon:hover::after {
+    color: #FDBF0F;
+  }
+  
+  
+  .decision__item:hover,
+  .col__img--desc:hover {
+    transition: 0.5s;
+  }
+  
+  
+  
+  
+  .decision__desc {
+    padding-top: 1.25rem;
+    font-size: .875rem;
+    max-width: 18.75rem;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .tally {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    width: 8.1875rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    background: #651FFF;
+    color: #FFFFFF;
+  }
+  
+  .tally::after {
+    display: block;
+    content: '';
+    width: 4px;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+    background: radial-gradient(at 100% 50%, transparent 2px, #651fff 2px, #651fff);
+    background-size: 4px 6px;
+    position: absolute;
+    top: 0;
+    right: -2px;
+  }
+  
+  .tally::before {
+    display: block;
+    content: '';
+    width: 4px;
+    height: 100%;
+    border-radius: 4px 0 0 4px;
+    background: radial-gradient(at 0% 50%, transparent 2px, #651fff 2px, #651fff);
+    background-size: 4px 6px;
+    position: absolute;
+    top: 0;
+    left: -2px;
+  }
+  

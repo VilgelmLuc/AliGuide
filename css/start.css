@@ -1,0 +1,54 @@
+
+
+.wrapper__start {
+    background: #651FFF;
+  
+  }
+  
+  .container__start {
+    height: 25rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+  }
+  
+  .container__title--start {
+    margin-bottom: 3.75rem;
+  }
+  
+  
+  
+  .start__list {
+    flex-wrap: wrap;
+    display: flex;
+    width: 80rem;
+    margin: 0 auto;
+    color: #fff;
+  
+  }
+  
+  .start__item {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    margin:0 0 3.125rem 0;
+  }
+  
+  .decor__circle {
+    outline: .4375rem solid #ffffff;
+  
+  }
+  
+  .start__desc {
+    width: 7.5rem;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .decor__arrow {
+  transform: rotate(90deg); 
+   }
+  }
+  
