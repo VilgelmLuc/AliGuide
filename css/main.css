@@ -81,6 +81,9 @@ img {
 
 }
 
+button{
+  border: none;
+}
 
 a {
   color: inherit;
