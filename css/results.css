@@ -5,8 +5,9 @@
     max-width: 80rem;
     width: 100%;
     margin: 0 auto;
-    height: 47.8125rem;
-  
+    height: auto;
+  display: flex;
+  flex-flow: row wrap;
   
   }
   
@@ -14,7 +15,9 @@
     color: black;
     height: 8.75rem;
     width: 43.75rem;
-  }
+    display: flex;
+    flex-flow: row wrap; 
+ }
   
   .bag::after {
     content: url(../img/paket_mish.png);
@@ -25,12 +28,13 @@
   }
   
   .results__keis {
+    display: flex;
+    flex-flow: row wrap;
     background-color: #ffffff;
     z-index: 10;
     margin: 0 auto;
     width: 73.125rem;
     max-width: 100%;
-    height: 22.5rem;
     display: flex;
     border: .0625rem solid rgba(229, 229, 229, 0.6);
     box-sizing: border-box;
@@ -46,27 +50,33 @@
   
   .results__keis--content {
     width: 52rem;
+    display: flex;
+    flex-flow: row wrap;
   }
   
   .container__title--total {
     color: black;
-    height: 3.75rem;
     width: 51.875rem;
     z-index: 10;
     font-size: 2.25rem;
     padding-top: 3.4375rem;
+    display: flex;
+    flex-flow: row wrap;
   }
   
   .container__subtitle--total {
     width: 43.75rem;
     font-size: 1rem;
     margin-bottom: 4.375rem;
+    display: flex;
+    flex-flow: row wrap;
   }
   
   .total__item {
-    width: 26.875rem;
     align-items: center;
-  
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
   }
   
   .icon__total {
@@ -80,7 +90,8 @@
     margin: 0 auto;
     height: 4.375rem;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;    
   }
   
   .total__desc {
@@ -89,9 +100,19 @@
     width: 11rem;
     padding: auto;
     align-items: center;
+    display: flex;
+  flex-flow: row wrap;
   }
   
   .total__list {
     display: flex;
+    flex-flow:row wrap;
+  }
+  @media (max-width: 768px) {
+      .total__list{
+          flex-flow: column;
+      }
+      
+      
   }
   

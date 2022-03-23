@@ -154,9 +154,11 @@
   }
   
   .benefits__desc--why {
+    display: flex;
     padding-left: .625rem;
     width: 100%;
     max-width: 192px;
+    flex-flow: row wrap;
   }
   
   .col__right--desc {
@@ -250,11 +252,16 @@
   
   .why-footer__item-desc {
     padding-left: 20px;
+    flex-flow: wrap;
   }
   
   .why-footer__item-desc--title{
     font-weight: 700 bold;
     font-size: 18px;
+    flex-flow: wrap;
+    display: flex;
+
+
   }
   
   .benefits__desc--why-footer {
@@ -262,5 +269,6 @@
     padding-left: 0rem;
     max-width: 25rem;
     font-size: 14px;
-    
+    flex-flow: wrap;
+    display: flex;
   }

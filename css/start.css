@@ -44,7 +44,8 @@
   
   .start__desc {
     width: 7.5rem;
-  }
+flex-flow: row wrap;  
+}
   
   @media screen and (max-width: 560px) {
     .decor__arrow {

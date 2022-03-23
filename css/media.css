@@ -358,95 +358,9 @@
         display: none;
     }
 
-    /* Contenthub */
-    .contenthub__footer {
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
-    .contenthub__footer-title {
-        font-size: 1.3rem;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    .contenthub__footer-content {
-        flex-direction: column;
-        width: 85%;
-        margin: 0 auto;
-    }
-    .contenthub__footer-item {
-        width: 100%;
-        margin-bottom: 8%;
-    }
+    
 
-    /* Process */
-    .process__container {
-        padding: 40px 20px;
-
-    }
-    .process__title {
-        margin-bottom: 3%;
-    }
-    .process__content {
-        width: 100%;
-        position: static;
-    }
-    .process__inner {
-        height: max-content;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    .process__inner>.process__item {
-        position: static;
-    }
-    .process__image {
-        display: none;
-    }
-    .process__circle {
-        display: none;
-    }
-    .process__item:nth-child(3) {
-        flex-direction: row;
-    }
-    .process__item:nth-child(4) {
-        flex-direction: row;
-    }
-    .process__item {
-        margin-bottom: 4%;
-    }
-    .process__item:nth-child(5) .process__number,
-    .process__item:nth-child(6) .process__number,
-    .process__item .process__number {
-        margin-right: 20px;
-    }
-    .process__item:nth-child(3) .process__text,
-    .process__item:nth-child(6) .process__text,
-    .process__text {
-        width: auto;
-        text-align: left;
-    }
-
-    /* Cases */
-    .cases__number {
-        font-size: 2rem;
-    }
-
-    /* Begin */
-    .begin__container {
-        padding-bottom: 30px;
-    }
-    .begin__content {
-        width: 80%;
-    }
-    .begin__punkt {
-        padding-left: 30%;
-    }
-    .begin__arrow {
-        display: none;
-    }
-    .begin__content>* {
-        margin-bottom: 12%;
-    }
+}
 
     /* Feedback */
     .feedback__container {
@@ -458,28 +372,7 @@
         background-position: -64% -21%;
     }
 
-    /* Footer */
-    .footer__container {
-        padding-bottom: 25px;
-    }
-    .footer__menu {
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 35px;
-    }
-    .footer__navigation {
-        display: none;
-    }
-    .footer__burger {
-        display: block;
-    }
-    .footer__info {
-        flex-direction: column;
-    }
-    .footer__info-item {
-        width: 50%;
-    }
-}
+   
 
 @media (max-width: 550px) {
 
