@@ -3,75 +3,88 @@
     background-color: #ffffff;
     margin: 0 auto;
     width: 100%;
-    max-width: 80rem;
+    max-width: 75rem;
     height: 100%;
     min-height: 40.625rem;
     display: flex;
-    text-align: justify;
-    position: relative;
+justify-content: space-around;   
+ position: relative;
     flex-wrap: wrap;
+    gap: 7rem;
   
   
   }
+  @media (max-width: 768px){
+    .container__keis{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .col__keis{
+      margin: 0 auto;
+      border-right: none;
+      flex-direction: column;
+    }
+    .col__right--problem{
+      margin: 0 auto:
+    }
+  }
   
   .col__keis {
+    flex: 0 1 50%;
+    position: relative;
     flex: 1;
+    border-right: 0.0625rem solid #000000;
+
+  }
+  .col__keis:last-child{
+    border: none;
+  }
+
+
+  .col__right--problem{
+    margin: 0 0 0 8.25rem;
   }
   
   
   
   .col__title {
     z-index: 10;
-    height: 2.5rem;
-    width: 8.125rem;
     display: flex;
-    margin-bottom: 1.875rem;
-    align-items: center;
-    justify-content: center;
     font-size: 1.125rem;
     color: #ffffff;
-    background: url(../img/Subtract.png) no-repeat;
-    position: relative;
+    position: absolute;
+    left: -4.6rem;
+    top: 20px;
+  }
+  .col__title--right{
+    left: 0;
   }
   
-  .col__img {
-    position: relative;
-    top: -5.625rem;
-    padding-right: 4.375rem;
-    text-align: end;
-    margin-bottom: 1.875rem;
+  .col__img {  
+    position: relative; 
+    top: -40px;
   }
+  .img__situation{
+
+}
   
   .col__img--desc {
-    margin: -3.125rem 0rem 0 10.5rem;
+    margin: 2.7rem 0 4.5rem 0;
+    padding: 0 3rem 0 0.5rem;
+    position: inherit;
     font-size: 1.125rem;
-    width: 100%;
-    max-width: 21.875rem;
-  }
-  
-  .col__right--problem::after {
-    content: "";
-    bottom: 20.8125rem;
-    left: 14.5625rem;
-    width: 41.75rem;
-    position: absolute;
-    border: 0.0625rem solid #000000;
-    transform: rotate(90deg);
+    line-height: 1.75rem;
+    font-weight: 400;
   }
   
   
-  
-  
-  
-  .col__left {
-    margin-left: 3.125rem;
-  }
   
   .col__subtitle {
     padding-top: .625rem;
     margin-bottom: 1.875rem;
     font-size: 1rem;
     text-align: center;
+    font-weight: 500;
   }
   
   
@@ -85,42 +98,42 @@
   
   .decision__icon,
   .decission__icon--two {
-    top: -2.5rem;
-    width: 30%;
+    background: url(../img/Groupkrug.svg);
+    min-width: 120px;
     margin-right: 3.125rem;
-    max-width: 7.5rem;
+    min-height: 120px;
     position: relative;
   }
   
   .decision__icon::before,
   .decission__icon--two::before {
     z-index: 5;
-    top: 2.5rem;
+    /* top: 0.5rem; */
     width: 2.0625rem;
     height: 2.0625rem;
     content: url(../img/elipseblack.svg);
-    position: relative;
+    position: absolute;
   }
   
   .decision__icon::after {
     z-index: 10;
-    top: -9.5rem;
-    left: 3.75rem;
+    top: -24px;
+    left: 60px;
     content: "1";
-    position: relative;
+    position: absolute;
     font-weight: 700;
-    font-size: 9rem;
+    font-size: 144px;
     line-height: 10.5625rem;
   }
   
   .decission__icon--two:after {
     z-index: 10;
-    top: -9.5rem;
-    left: 3.75rem;
+    top: -24px;
+    left: 56px;
     content: "2";
-    position: relative;
+    position: absolute;
     font-weight: 700;
-    font-size: 9rem;
+    font-size: 144px;
     line-height: 10.5625rem;
   }
   
@@ -142,8 +155,8 @@
     padding-top: 1.25rem;
     font-size: .875rem;
     max-width: 18.75rem;
-    width: 70%;
     text-align: center;
+height: auto;
   }
   
   .tally {

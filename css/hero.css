@@ -39,7 +39,7 @@
     transform: translateY(-49%) rotate(-45deg);
   }
   
-  @media (max-width: 62rem) {
+  @media (max-width: 992px) {
     .decor__circles::after {
       border-width: 10rem;
     }
@@ -54,7 +54,7 @@
     transform: translateY(-48%) rotate(-45deg);
   }
   
-  @media (max-width: 62rem) {
+  @media (max-width: 992px) {
     .decor__circles::before {
       border-width: 8.125rem;
       left: 16.25rem;
@@ -69,6 +69,7 @@
     position: relative;
     z-index: 10;
     display: flex;
+    justify-content: space-between;
   }
   
   .logo {
@@ -78,14 +79,14 @@
     left: 0;
     margin-right: 1.625rem;
     font-size: 3rem;
-  z-index: 20;
   }
   
   .menu {
     position: absolute;
     top: 1.5rem;
     right: 0;
-  
+    flex-flow:row wrap;
+
   }
   
   
@@ -95,7 +96,7 @@
     display: flex;
     justify-content: space-around;
     flex-flow:row wrap;
-    max-width: 100%;
+    min-width: 800px;
   }
   
   .menu__item {
@@ -246,7 +247,7 @@
   .hero__img--section {
     right: -10.625rem;
     top: -9.0625rem;
-    position: relative;
+    position: absolute;
     animation-name: flip;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -257,15 +258,15 @@
   
   @keyframes flip {
     0% {
-      transform: rotate(0deg);
+      transform: rotateY(0deg);
     }
   
     50% {
-      transform: rotate(180deg);
+      transform: rotateY(180deg);
     }
   
     100% {
-      transform: rotate(360deg);
+      transform: rotateY(360deg);
     }
   }
   
@@ -297,8 +298,8 @@
   .hero__img--content {
     margin: 0 auto;
     position: absolute;
-    top: 11.125rem;
-    left: 16.25rem;
+    top: -31px;
+    left: 260px;
     z-index: 9;
     bottom: 0;
   }

@@ -47,40 +47,33 @@
 
 <body>
     <main class="main">
-        <div class="container wrapper__circles">         <!-- HERO -->
+        <div class="wrapper__hero ">
+        <div class="container wrapper__circles">
+            <!-- HERO -->
 
-            <div class="wrapper__hero ">
                 <div class="container__hero decor__circles">
                     <header class="header">
-                        <a href="/index.html" class="logo">
+                        <div class="logo">
+                        <a href="/index.html" >
                             Проводник
                         </a>
-                        <!-- Burger button -->
-                        <input type="checkbox" id="burgerBtn" class="header__burger-btn">
-                        <label for="burgerBtn" id="burgerBtnLabel" class="header__burger-label">
-                            <span></span>
-                        </label>
-                        <div class="header__burger-menu">
-                            <img src="./img/mishen_red.png" alt="">
-                        </div>
-                        
+                    </div>
+                       
 
-                        <nav class="menu">
+
+                        <div class="menu">
                             <ul class="menu__list">
-                                <li class="menu__item menu__item_active"> <a href="#"
-                                        class="menu__link">услуги
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">услуги
                                     </a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="#"
-                                        class="menu__link">Цены
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">Цены
                                     </a>
                                 </li>
                                 <li class="menu__item menu__item_active"> <a href="#" class="menu__link">как
                                         это
                                         работает </a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="#"
-                                        class="menu__link">блог</a>
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">блог</a>
                                 </li>
                                 <li class="menu__item menu__item_active"> <a href="#" class="menu__link">О
                                         компании</a>
@@ -88,14 +81,12 @@
                                 <li class="menu__item menu__item_active"> <a href="#"
                                         class="menu__link">производителям</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="#"
-                                        class="menu__link">проекты</a>
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">проекты</a>
                                 </li>
-                                <li class="menu__item menu__item_active"> <a href="#"
-                                        class="menu__link">контакты</a>
+                                <li class="menu__item menu__item_active"> <a href="#" class="menu__link">контакты</a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
 
                         <address>
                             <div class="contacts">
@@ -142,10 +133,11 @@
                         <div class="hero__img--section">
                             <img src="./img/mishen_red.png" alt="">
                         </div>
-                    </div>
+                   
                     <div class="hero__img--content">
                         <img class="img__devushka" src="./img/devushka.png" alt="">
-                    </div>
+                    </div> 
+                </div>
                 </div>
             </div>
         </div>
@@ -154,25 +146,23 @@
             <!-- KEIS -->
 
             <div class="container__keis">
-                <div class="col__keis">
-                    <div class="col__right col__right--problem">
-                        <div class="tally col__title"> Ситуация </div>
-                        <div class="col__img">
-                            <img src="./img/Rectangle.png" alt="">
-                        </div>
-                        <div class="col__img--desc"> Вы тратите много сил и денег на маркетинг и рекламу своих товаров.
-                            Самые эффективные из каналов — дорогие и требуют большой работы.</div>
-
+                <div class="col__keis col__right--problem">
+                    <div class="tally col__title"> Ситуация </div>
+                    <div class="col__img">
+                        <img class="img__situation" src="./img/Rectangle.png" alt="">
                     </div>
+                    <p class="col__img--desc"> Вы тратите много сил и денег на маркетинг и рекламу своих товаров.
+                        Самые эффективные из каналов — дорогие и требуют большой работы.</p>
 
                 </div>
+
                 <div class="col__keis">
                     <div class="col__left">
-                        <div class=" tally col__title">Решение </div>
+                        <div class=" tally col__title col__title--right">Решение </div>
                         <div class="col__subtitle">Точнее, их два</div>
                         <ul class="decision__content">
                             <li class="decision__item">
-                                <div class="decision__icon"> <img src="./img/Groupkrug.svg" alt=""></div>
+                                <div class="decision__icon"> <img src="./img/.svg" alt=""></div>
                                 <div class="decision__desc"> Сотрудничать с существующим магазином на AliExpress и
                                     избавить
                                     себя от забот вроде вопросов колл-центра, хранения и доставки. И опять же – не
@@ -180,7 +170,7 @@
                                     на маркетинг.</div>
                             </li>
                             <li class="decision__item">
-                                <div class="decission__icon--two"> <img src="./img/Groupkrug.svg" alt=""></div>
+                                <div class="decission__icon--two"> <img src="./img/.svg" alt=""></div>
                                 <div class="decision__desc">Cоздать магазин на маркетплейсе AliExpress и реализовывать
                                     товары покупателям со всего мира. Один емкий и грамотный канал продаж заменит все
                                     рекламные инструменты, которыми вы пользовались до этого. </div>
@@ -189,160 +179,439 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container"><!-- BENEFITS -->
+            <div class="container">
+                <!-- BENEFITS -->
 
-            <div class="wrapper__benefits">
-                <div class="container__benefits">
-                    <div class="container__title">
-                        <h2 class="benefits__title"> Что вы получите с магазином на AliExpress?</h2>
-                    </div>
-                    <div class="benefits__content">
-                        <ul class="benefits__list">
-                            <li class="benefits__item">
-                                <div class="benefits__icon"> <img src="./img/calc.svg" alt=""></div>
-                                <div class="benefits__desc"> Снизите операционные расходы и расходы на маркетинг.</div>
-                            </li>
-                            <li class="benefits__item">
-                                <div class="benefits__icon"> <img src="./img/airport.svg" alt=""></div>
-                                <div class="benefits__desc"> Сможете реализовывать продукцию в очень больших объемах.
-                                </div>
-                            </li>
-                            <li class="benefits__item">
-                                <div class="benefits__icon"> <img src="./img/grafik.svg" alt=""></div>
-                                <div class="benefits__desc"> Трафик из очень активных покупателей из регионов.
-                                </div>
-                            </li>
-                            <li class="benefits__item">
-                                <div class="benefits__icon"> <img src="./img/ruble.svg" alt=""></div>
-                                <div class="benefits__desc">В 2020 году еще увеличите продажи за счет покупателей
-                                    из стран СНГ.
-                                </div>
-                            </li>
-
-                        </ul>
-                    
-                        <div class="triangle triangle__benefits">
-                            <div class="btn__benefits ">
-                                <a>Скачать предложение</a>
-                            </div>
-                            <div class="benefits__triangle"></div>
+                <div class="wrapper__benefits">
+                    <div class="container__benefits">
+                        <div class="container__title">
+                            <h2 class="benefits__title"> Что вы получите с магазином на AliExpress?</h2>
                         </div>
+                        <div class="benefits__content">
+                            <div class="benefits__list">
+                                <div class="benefits__item">
+                                    <span class="benefits__icon"> <img src="./img/calc.svg" alt=""></span>
+                                    <p class="benefits__desc"> Снизите операционные расходы и расходы на маркетинг.</p>
+                                </div>
+                                <div class="benefits__item">
+                                    <span class="benefits__icon"> <img src="./img/airport.svg" alt=""></span>
+                                    <p class="benefits__desc"> Сможете реализовывать продукцию в очень больших объемах.
+                                    </p>
+                                </div>
+                                <div class="benefits__item">
+                                    <span class="benefits__icon"> <img src="./img/grafik.svg" alt=""></span>
+                                    <p class="benefits__desc"> Трафик из очень активных покупателей из регионов.
+                                    </p>
+                                </div>
+                                <div class="benefits__item">
+                                    <span class="benefits__icon"> <img src="./img/ruble.svg" alt=""></span>
+                                    <p class="benefits__desc">В 2020 году еще увеличите продажи за счет покупателей
+                                        из стран СНГ. </p>
+                                </div>
+
+                            </div>
+
+                            <div class="triangle triangle__benefits">
+                                <div class="btn__benefits ">
+                                    <a>Скачать предложение</a>
+                                </div>
+                                <div class="benefits__triangle"></div>
+                            </div>
+                        </div>
+
+
+
                     </div>
 
-
-
-                </div>
-              
-                <div class="benefits__img--wrapper">
-                    <img src="./img/tel_krugi.svg" alt="">
+                    <div class="benefits__img--wrapper">
+                        <img src="./img/tel_krugi.svg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">   <!-- WHY -->
-            <div class="wrapper__why">
-                <div class="container__why">
-                    <div class="container__title container__title--why">
-                        <h2>Почему выходить на AliExpress самостоятельно сложно?</h2>
-                    </div>
-                    <div class="col col__problems">
-                        <div class="col__keis col__keis--why ">
-                            <div class="col__right col__right--why">
-                                <div class="tally col__title--why-left"> Самостоятельно </div>
-                                <div class="problems">
-                                    <ul class="problems__list">
-                                        <li class="problems__item">Китайская площадка со сложными правилами и формулами.
-                                        </li>
-                                        <li class="problems__item">Ограниченные возможности без статуса технического
-                                            партнера.
-
-                                        </li>
-                                        <li class="problems__item">Очень тяжело добиться высокого рейтинга магазинов и
-                                            товаров –
-                                            <b>главного фактора в выдаче по запросу.</b>
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="why__img">
-                                    <img src="./img/laptop.png" alt="">
-                                </div>
-
-                            </div>
+            <div class="container">
+                <!-- WHY -->
+                <div class="wrapper__why">
+                    <div class="container__why">
+                        <div class="container__title container__title--why">
+                            <h2>Почему выходить на AliExpress самостоятельно сложно?</h2>
                         </div>
-                        <div class="col__keis col__keis--why ">
-                            <div class="col__right">
-                                <div class="tally  col__title--why-right"> C техническим партнером Content Hub </div>
-                                <div class="problems">
-                                    <ul class="benefits__list--why">
-                                        <li class="benefits__item--why">
-                                            <div class="benefits__icon--why benefits__icon--why-border"> </div>
-                                            <div class="benefits__desc--why"> Берем заключение договора на себя.
+                        <div class="col col__problems">
+                            <div class="col__keis col__keis--why ">
+                                <div class="col__right col__right--why">
+                                    <div class="tally col__title--why-left"> Самостоятельно </div>
+                                    <div class="problems">
+                                        <ul class="problems__list">
+                                            <li class="problems__item">Китайская площадка со сложными правилами и
+                                                формулами.
+                                            </li>
+                                            <li class="problems__item">Ограниченные возможности без статуса технического
+                                                партнера.
 
-                                            </div>
-                                        </li>
-                                        <li class="benefits__item--why">
-                                            <div class="benefits__icon--why benefits__icon--why-border"> </div>
-                                            <div class="benefits__desc--why"> Помогаем с описанием товаров.
+                                            </li>
+                                            <li class="problems__item">Очень тяжело добиться высокого рейтинга магазинов
+                                                и
+                                                товаров –
+                                                <b>главного фактора в выдаче по запросу.</b>
 
-                                            </div>
-                                        </li>
-                                        <li class="benefits__item--why">
-                                            <div class="benefits__icon--why benefits__icon--why-border"> </div>
-                                            <div class="benefits__desc--why">Брендируем магазин. </div>
-                                        </li>
-                                        <li class="benefits__item--why">
-                                            <div class="benefits__icon--why benefits__icon--why-border"> </div>
-                                            <div class="benefits__desc--why"> Создаем аккаунт. </div>
-                                        </li>
-                                        <li class="benefits__item--why">
-                                            <div class="benefits__icon--why benefits__icon--why-border"> </div>
-                                            <div class="benefits__desc--why">Коннектим магазин с вашей CRM.</div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col__right--desc">
-                                    <div class=""> <img src="./img/note.svg" alt=""> </div>
-                                    <div class="benefits__desc--why"> <b> И главное — продвигаем в рейтинге на первые
-                                            позиции в выдаче.</b>
+                                            </li>
+                                        </ul>
                                     </div>
-                                </div>
-                                <div class="triangle btn__why">
-                                    <div class="btn__hero  ">
-                                        <a href="#modalWindow">Написать нам</a>
+                                    <div class="why__img">
+                                        <img src="./img/laptop.png" alt="">
                                     </div>
-                                    <div class="btn__triangle"></div>
+
                                 </div>
-
-
                             </div>
-                        </div>
+                            <div class="col__keis col__keis--why col__right--why ">
+                                <div class="col__right ">
+                                    <div class="tally  col__title--why-right"> C техническим партнером Content Hub
+                                    </div>
+                                    <div class="problems">
+                                        <ol class="benefits__list--why">
+                                            <li class="benefits__item--why">
+                                                <div class="benefits__icon--why benefits__icon--why-border"> </div>
+                                                <div class="benefits__desc--why"><p> Берем заключение договора на себя.</p>
 
-                        <!-- Modal -->
-                        <section class="modal modal-open" id="modalWindow">
-                            <div class="modal__form">
-                                <form class="modal__form" action="https://www.url_address.dn" method="post">
-                                    <div class="modal__header">
-                                        <h2 class="modal__title">Пожалуйста, оставьте свои контакты</h2>
-                                        <div class="modal__btn-close">
-                                            <a href="#close" id="modalBtnClose" class="close">Закрыть</a>
+                                                </div>
+                                            </li>
+                                            <li class="benefits__item--why">
+                                                <div class="benefits__icon--why benefits__icon--why-border"> </div>
+                                                <div class="benefits__desc--why"><p> Берем заключение договора на себя.</p>
+
+                                                </div>
+                                            </li>
+                                            <li class="benefits__item--why">
+                                                <div class="benefits__icon--why benefits__icon--why-border"> </div>
+                                                <div class="benefits__desc--why"><p> Берем заключение договора на себя.</p>
+                                                </li>
+                                            <li class="benefits__item--why">
+                                                <div class="benefits__icon--why benefits__icon--why-border"> </div>
+                                                <div class="benefits__desc--why"><p> Берем заключение договора на себя.</p>
+                                                </li>
+                                            <li class="benefits__item--why">
+                                                <div class="benefits__icon--why benefits__icon--why-border"> </div>
+                                                <div class="benefits__desc--why"><p> Берем заключение договора на себя.</p>
+                                                </li>
+                                        </ol>
+                                    </div>
+                                    <div class="col__right--desc">
+                                        <div class=""> <img src="./img/note.svg" alt=""> </div>
+                                        <div class="benefits__desc--why"> <b> И главное — продвигаем в рейтинге на
+                                                первые
+                                                позиции в выдаче.</b>
                                         </div>
                                     </div>
+                                    <div class="triangle btn__why">
+                                        <div class="btn__hero  ">
+                                            <a href="#modalWindow">Написать нам</a>
+                                        </div>
+                                        <div class="btn__triangle"></div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <section class="modal modal-open" id="modalWindow">
+                                <div class="modal__form">
+                                    <form class="modal__form" action="https://www.url_address.dn" method="post">
+                                        <div class="modal__header">
+                                            <h2 class="modal__title">Пожалуйста, оставьте свои контакты</h2>
+                                            <div class="modal__btn-close">
+                                                <a href="#close" id="modalBtnClose" class="close">Закрыть</a>
+                                            </div>
+                                        </div>
+                                        <!-- User name -->
+                                        <div class="modal__input-block">
+                                            <!-- <label for="userNameModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: Алексей</label> -->
+                                            <input type="text" id="userNameModal" name="userName" class="modal__input"
+                                                placeholder="Как к вам обращаться" pattern="[A-ZА-Я][a-zа-яё]{5,}"
+                                                maxlength="20" required>
+                                            <label for="userNameModal" class="modal__label">Имя<sup>*</sup></label>
+                                            <!-- <label for="userName" id="userNameValid" class="modal__label">Введено верно</label>
+              <label for="userName" id="userNameInvalid" class="modal__label">Введено неверно</label> -->
+                                        </div>
+
+                                        <!-- User proff -->
+                                        <div class="modal__input-block">
+                                            <!-- <label for="userProffModal" class="modal__label-prompt"><sup>*</sup>Обязательно для выбора</label> -->
+                                            <select name="userProff" id="userProffModal" class="modal__input" required>
+                                                <option value="" selected>Выберите род деятельности</option>
+                                                <option value="director">Руководитель</option>
+                                                <option value="booker">Бухгалтер</option>
+                                                <option value="it-specialist">IT-специалист</option>
+                                                <option value="self-employed">Самозанятый</option>
+                                                <option value="un-employed">Безработный</option>
+                                                <option value="other">Другое</option>
+                                            </select>
+                                            <label for="userProffModal" class="modal__label">Кто вы<sup>*</sup></label>
+                                        </div>
+
+                                        <!-- User phone -->
+                                        <div class="modal__input-block">
+                                            <!-- <label for="userPhoneModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: +7 (ххх) хх-хх-ххх</label> -->
+                                            <input type="tel" id="userPhoneModal" name="userPhone" class="modal__input"
+                                                placeholder="+7 (123) 12-12-123"
+                                                pattern="\+7\s[\(][0-9]{3}[\)]\s[0-9]{2}[\-][0-9]{2}[\-][0-9]{3}"
+                                                minlength="18" maxlength="18" required>
+                                            <label for="userPhoneModal" class="modal__label">Телефон<sup>*</sup></label>
+                                        </div>
+
+                                        <!-- User domain -->
+                                        <div class="modal__input-block">
+                                            <!-- <label for="userUrlModal" class="modal__label-prompt">Необязательно для заполнения</label> -->
+                                            <input type="url" id="userUrlModal" name="userUrl" class="modal__input"
+                                                placeholder=" ">
+                                            <label for="userUrlModal" class="modal__label">Домен (если есть)</label>
+                                        </div>
+
+                                        <!-- User e-mail -->
+                                        <div class="modal__input-block">
+                                            <!-- <label for="userEmailModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: example@domain.dz</label> -->
+                                            <input type="email" id="userEmailModal" name="userEmail"
+                                                class="modal__input" placeholder="Нужен для связи" maxlength="30"
+                                                required>
+                                            <label for="userEmailModal" class="modal__label">E-mail<sup>*</sup></label>
+                                        </div>
+
+                                        <!-- Consent & Button -->
+                                        <div class="modal__form-footer">
+                                            <div class="modal__consent">
+                                                Оправляя форму, вы соглашаетесь на сбор, обработку
+                                                и хранение ваших данных сотрудниками компании.<br>
+                                                <a href="#">Политика конфиденциальности</a>
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="modal__btn-submit">Отправить</button>
+
+                                    </form>
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
+                    <div class="why__footer">
+                        <div class="container__title containeer__title--why-footer">
+                            <h3>Кому интересно на AliExpress с Проводником?</h3>
+                        </div>
+                        <div class="benefits__list--why benefits__list--why-footer">
+                            <div class="benefits__item--why benefits__item--why-footer">
+                                <span class="benefits__icon--why benefits__icon--why-footer--left"> </span>
+                                <div class="why-footer__item-desc">
+                                    <h4 class="why-footer__item-desc--title">Небольшим интернет-магазинам </h4>
+                                    <p class="benefits__desc--why benefits__desc--why-footer "> С ограниченными
+                                        ресурсами
+                                        и
+                                        бюджетом на рекламу.</p>
+                                </div>
+                            </div>
+                            <div class="benefits__item--why benefits__item--why-footer">
+                                <span class="benefits__icon--why benefits__icon--why-footer--right"> </span>
+                                <div class="why-footer__item-desc">
+                                    <h4 class="why-footer__item-desc--title">Небольшим интернет-магазинам </h4>
+                                    <p class="benefits__desc--why benefits__desc--why-footer ">Готовы поставлять товар
+                                        реселлеру и не хотят заниматься
+                                         продвижением товаров конечному покупателю.</p>
+                                </div>
+                            </div>
+                            <!-- <div class="benefits__item--why benefits__item--why-footer">
+                                <span class="benefits__icon--why benefits__icon--why-footer--right"> </span>
+                                <div class="why-footer__item-desc">
+                                    <h4 class="why-footer__item-desc--title">Небольшим интернет-магазинам </h4>
+                                    <p class="benefits__desc--why benefits__desc--why-footer ">Готовы поставлять товар
+                                        реселлеру и не хотят заниматься продвижением товаров конечному покупателю.</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- process -->
+
+                <div class="wrapper__process">
+
+                    <div class="container__process">
+
+
+                        <div class="circle__process">
+                            <div class="process__img--back">
+                                <img src="./img/chelsmisheniu.png" alt="">
+                            </div>
+                        </div>
+                        <div class=" container__title container__title--process">
+                            <h2>Как организован процесс?</h2>
+                        </div>
+                        <div class="process__content">
+                            <ul class="process__list--why">
+                                <li class="benefits__item--why process__item process__item--1">
+                                    <div class="benefits__desc--why process__desc">
+                                        <p>Проводник ищет магазины
+                                            и производителей и заводит
+                                            их на маркетплейс.</p>
+                                    </div>
+                                    <div class="process__icon process__icon--1"> </div>
+
+                                </li>
+                                <li class="benefits__item--why process__item process__item--2">
+                                    <div class="benefits__desc--why process__desc">
+                                        <p>Представляет интересы мерчантов
+                                            и коммуницирует с площадкой по всем установочным вопросам.</p>
+                                    </div>
+                                    <div class="process__icon process__icon--2"> </div>
+
+                                </li>
+                                <li class="benefits__item--why process__item process__item--3">
+                                    <div class="process__icon process__icon--3"> </div>
+                                    <div class="benefits__desc--why process__desc">
+                                        <p>Ищет партнеров-реселлеров
+                                            при необходимости и помогает наладить взаимодействие.</p>
+
+                                    </div>
+                                </li>
+                                <li class="benefits__item--why process__item process__item--4">
+                                    <div class="process__icon process__icon--4"> </div>
+                                    <div class="benefits__desc--why process__desc">
+                                        <p> Уже освоил алгоритм продвижения магазина и
+                                            готов его применить для вашей раскрутки на маркетплейсе.</p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- RESULTS -->
+
+                <div class="wrapper__results">
+                    <div class="container__results">
+                        <div class="container__title container__title--results bag">
+                            <h2>Чего добились с проводником другие магазины?</h2>
+                        </div>
+                        <div class="results__keis">
+                            <div class="results__keis--logo"><img src="" alt=""></div>
+                            <div class="results__keis--content">
+                                <div class="container__title--total">
+                                    <h3>Продвижение и раскрутка магазина одежды</h3>
+                                </div>
+                                <div class="container__subtitle--total">
+                                    <p> Проводник ищет магазины и производителей и заводит их на маркетплейс. Уже освоил
+                                        алгоритм продвижения магазина и готов его применить для вашей раскрутки на
+                                        маркетплейсе.
+
+                                    </p>
+                                </div>
+                                <ul class="total__list">
+                                    <li class="benefits__item--why process__item total__item">
+                                        <div class="benefits__icon--why icon__total "> </div>
+                                        <div class="total__numbers">
+                                            <p>765 885</p>
+                                        </div>
+                                        <div class=" total__desc">
+                                            <p>Законченных покупок.</p>
+                                        </div>
+                                    </li>
+                                    <li class="benefits__item--why process__item total__item">
+                                        <div class="benefits__icon--why icon__total"> </div>
+                                        <div class="total__numbers">
+                                            <p>789 654</p>
+                                        </div>
+                                        <div class=" total__desc">
+                                            <p>Просмотров магазина.</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- START -->
+
+                <div class="wrapper__start">
+                    <div class="container__start">
+                        <div class="container__title container__title--start">
+                            <h2>Как Начать?</h2>
+                        </div>
+
+                        <ul class="start__list">
+                            <li class="benefits__item--why start__item start__item--1">
+
+                                <div class="process__icon process__icon--1 decor__circle"> </div>
+                                <div class="benefits__desc--why start__desc">
+                                    <p>Заполните
+                                        форму.</p>
+                                </div>
+                                <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
+                            </li>
+                            <li class="benefits__item--why start__item start__item--2">
+
+                                <div class="process__icon process__icon--2 decor__circle"> </div>
+                                <div class="benefits__desc--why start__desc">
+                                    <p>Обсудим ваши задачи
+                                        с менеджером.</p>
+                                </div>
+                                <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
+
+                            </li>
+                            <li class="benefits__item--why start__item start__item--3">
+                                <div class="process__icon process__icon--3 decor__circle"> </div>
+                                <div class="benefits__desc--why start__desc">
+                                    <p>Сформируем
+                                        пакет услуг.</p>
+                                </div>
+                                <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
+
+                            </li>
+                            <li class="benefits__item--why start__item start__item--4">
+                                <div class="process__icon process__icon--4 decor__circle"> </div>
+                                <div class="benefits__desc--why start__desc">
+                                    <p> Заключим
+                                        договор.</p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <section class="feedback">
+                    <div class="container feedback__container">
+                        <div class="feedback__wrapper">
+                            <div class="feedback__content">
+                                <h2 class="feedback__title">Пожалуйста, оставьте свои контакты</h2>
+
+                                <!-- Form -->
+                                <form class="feedback__form" action="https://www.url_address.dn">
+
                                     <!-- User name -->
-                                    <div class="modal__input-block">
-                                        <!-- <label for="userNameModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: Алексей</label> -->
-                                        <input type="text" id="userNameModal" name="userName" class="modal__input"
+                                    <div class="feedback__input-block">
+                                        <label for="userName" class="feedback__label-prompt"><sup>*</sup>Обязательно для
+                                            ввода.
+                                            Формат записи: Алексей</label>
+                                        <input type="text" id="userName" name="userName" class="feedback__input"
                                             placeholder="Как к вам обращаться" pattern="[A-ZА-Я][a-zа-яё]{5,}"
                                             maxlength="20" required>
-                                        <label for="userNameModal" class="modal__label">Имя<sup>*</sup></label>
-                                        <!-- <label for="userName" id="userNameValid" class="modal__label">Введено верно</label>
-              <label for="userName" id="userNameInvalid" class="modal__label">Введено неверно</label> -->
+                                        <label for="userName" class="feedback__label">Имя<sup>*</sup></label>
+                                        <!-- <label for="userName" id="userNameValid" class="feedback__label">Введено верно</label>
+                  <label for="userName" id="userNameInvalid" class="feedback__label">Введено неверно</label> -->
                                     </div>
 
                                     <!-- User proff -->
-                                    <div class="modal__input-block">
-                                        <!-- <label for="userProffModal" class="modal__label-prompt"><sup>*</sup>Обязательно для выбора</label> -->
-                                        <select name="userProff" id="userProffModal" class="modal__input" required>
+                                    <div class="feedback__input-block">
+                                        <label for="userProff" class="feedback__label-prompt"><sup>*</sup>Обязательно
+                                            для
+                                            выбора</label>
+                                        <select name="userProff" id="userProff" class="feedback__input" required>
                                             <option value="" selected>Выберите род деятельности</option>
                                             <option value="director">Руководитель</option>
                                             <option value="booker">Бухгалтер</option>
@@ -351,402 +620,145 @@
                                             <option value="un-employed">Безработный</option>
                                             <option value="other">Другое</option>
                                         </select>
-                                        <label for="userProffModal" class="modal__label">Кто вы<sup>*</sup></label>
+                                        <label for="userProff" class="feedback__label">Кто вы<sup>*</sup></label>
                                     </div>
 
                                     <!-- User phone -->
-                                    <div class="modal__input-block">
-                                        <!-- <label for="userPhoneModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: +7 (ххх) хх-хх-ххх</label> -->
-                                        <input type="tel" id="userPhoneModal" name="userPhone" class="modal__input"
+                                    <div class="feedback__input-block">
+                                        <label for="userPhone" class="feedback__label-prompt"><sup>*</sup>Обязательно
+                                            для
+                                            ввода.
+                                            Формат записи: +7 (ххх) хх-хх-ххх</label>
+                                        <input type="tel" id="userPhone" name="userPhone" class="feedback__input"
                                             placeholder="+7 (123) 12-12-123"
                                             pattern="\+7\s[\(][0-9]{3}[\)]\s[0-9]{2}[\-][0-9]{2}[\-][0-9]{3}"
                                             minlength="18" maxlength="18" required>
-                                        <label for="userPhoneModal" class="modal__label">Телефон<sup>*</sup></label>
+                                        <label for="userPhone" class="feedback__label">Телефон<sup>*</sup></label>
                                     </div>
 
                                     <!-- User domain -->
-                                    <div class="modal__input-block">
-                                        <!-- <label for="userUrlModal" class="modal__label-prompt">Необязательно для заполнения</label> -->
-                                        <input type="url" id="userUrlModal" name="userUrl" class="modal__input"
+                                    <div class="feedback__input-block">
+                                        <label for="userUrl" class="feedback__label-prompt">Необязательно для
+                                            заполнения</label>
+                                        <input type="url" id="userUrl" name="userUrl" class="feedback__input"
                                             placeholder=" ">
-                                        <label for="userUrlModal" class="modal__label">Домен (если есть)</label>
+                                        <label for="userUrl" class="feedback__label">Домен (если есть)</label>
                                     </div>
 
                                     <!-- User e-mail -->
-                                    <div class="modal__input-block">
-                                        <!-- <label for="userEmailModal" class="modal__label-prompt"><sup>*</sup>Обязательно для ввода. Формат записи: example@domain.dz</label> -->
-                                        <input type="email" id="userEmailModal" name="userEmail" class="modal__input"
+                                    <div class="feedback__input-block">
+                                        <label for="userEmail" class="feedback__label-prompt"><sup>*</sup>Обязательно
+                                            для
+                                            ввода.
+                                            Формат записи: example@domain.dz</label>
+                                        <input type="email" id="userEmail" name="userEmail" class="feedback__input"
                                             placeholder="Нужен для связи" maxlength="30" required>
-                                        <label for="userEmailModal" class="modal__label">E-mail<sup>*</sup></label>
+                                        <label for="userEmail" class="feedback__label">E-mail<sup>*</sup></label>
                                     </div>
 
                                     <!-- Consent & Button -->
-                                    <div class="modal__form-footer">
-                                        <div class="modal__consent">
+                                    <div class="feedback__form-footer">
+                                        <div class="feedback__consent">
                                             Оправляя форму, вы соглашаетесь на сбор, обработку
                                             и хранение ваших данных сотрудниками компании.<br>
                                             <a href="#">Политика конфиденциальности</a>
                                         </div>
+                                        <div class="triangle btn__why">
+                                            <button type="submit" name="option" class="btn__hero  "
+                                                value="Отправить">Отправить
+                                                <a href="#"></a>
+                                            </button>
+                                            <div class="btn__triangle"></div>
+                                        </div>
                                     </div>
-
-                                    <button type="submit" class="modal__btn-submit">Отправить</button>
 
                                 </form>
-                            </div>
 
-                        </section>
-                    </div>
-
-                </div>
-                <div class="why__footer">
-                    <div class="container__title containeer__title--why-footer">
-                        <h3>Кому интересно на AliExpress с Проводником?</h3>
-                    </div>
-                    <ul class="benefits__list--why benefits__list--why-footer">
-                        <li class="benefits__item--why benefits__item--why-footer">
-                            <div class="benefits__icon--why benefits__icon--why-footer--left"> </div>
-                            <div class="why-footer__item-desc">
-                                <div class="why-footer__item-desc--title">
-                                    <h4>Небольшим интернет-магазинам </h4>
-                                </div>
-                                <div class="benefits__desc--why benefits__desc--why-footer "> С ограниченными ресурсами
-                                    и
-                                    бюджетом на рекламу.</div>
-                            </div>
-                        </li>
-                        <li class="benefits__item--why benefits__item--why-footer">
-                            <div class="benefits__icon--why benefits__icon--why-footer--right"> </div>
-                            <div class="why-footer__item-desc">
-                                <div class="why-footer__item-desc--title">
-                                    <h4>Небольшим интернет-магазинам </h4>
-                                </div>
-                                <div class="benefits__desc--why benefits__desc--why-footer ">Готовы поставлять товар
-                                    реселлеру и не хотят заниматься продвижением товаров конечному покупателю.</div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                            </div><!-- /feedback__content -->
+                        </div><!-- /feedback__wrapper -->
+                    </div><!-- /container -->
+                </section>
+                <!-- /Feedback -->
             </div>
-        </div>
-        <div class="container"> <!-- process -->
-           
-            <div class="wrapper__process">
-
-                <div class="container__process">
-
-
-                    <div class="circle__process">
-                        <div class="process__img--back">
-                            <img src="./img/chel_meshen.png" alt="">
-                        </div>
-                    </div>
-                    <div class=" container__title container__title--process">
-                        <h2>Как организован процесс?</h2>
-                    </div>
-                    <div class="process__content">
-                        <ul class="process__list--why">
-                            <li class="benefits__item--why process__item process__item--1">
-                                <div class="benefits__desc--why process__desc">
-                                    <p>Проводник ищет магазины
-                                        и производителей и заводит
-                                        их на маркетплейс.</p>
-                                </div>
-                                <div class="process__icon process__icon--1"> </div>
-
-                            </li>
-                            <li class="benefits__item--why process__item process__item--2">
-                                <div class="benefits__desc--why process__desc">
-                                    <p>Представляет интересы мерчантов
-                                        и коммуницирует с площадкой по всем установочным вопросам.</p>
-                                </div>
-                                <div class="process__icon process__icon--2"> </div>
-
-                            </li>
-                            <li class="benefits__item--why process__item process__item--3">
-                                <div class="process__icon process__icon--3"> </div>
-                                <div class="benefits__desc--why process__desc">
-                                    <p>Ищет партнеров-реселлеров
-                                        при необходимости и помогает наладить взаимодействие.</p>
-
-                                </div>
-                            </li>
-                            <li class="benefits__item--why process__item process__item--4">
-                                <div class="process__icon process__icon--4"> </div>
-                                <div class="benefits__desc--why process__desc">
-                                    <p> Уже освоил алгоритм продвижения магазина и
-                                        готов его применить для вашей раскрутки на маркетплейсе.</p>
-
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container"><!-- RESULTS -->
-            
-            <div class="wrapper__results">
-                <div class="container__results">
-                    <div class="container__title container__title--results bag">
-                        <h2>Чего добились с проводником другие магазины?</h2>
-                    </div>
-                    <div class="results__keis">
-                        <div class="results__keis--logo"><img src="" alt=""></div>
-                        <div class="results__keis--content">
-                            <div class="container__title--total">
-                                <h3>Продвижение и раскрутка магазина одежды</h3>
-                            </div>
-                            <div class="container__subtitle--total">
-                                <p> Проводник ищет магазины и производителей и заводит их на маркетплейс. Уже освоил
-                                    алгоритм продвижения магазина и готов его применить для вашей раскрутки на
-                                    маркетплейсе.
-
-                                </p>
-                            </div>
-                            <ul class="total__list">
-                                <li class="benefits__item--why process__item total__item">
-                                    <div class="benefits__icon--why icon__total "> </div>
-                                    <div class="total__numbers">
-                                        <p>765 885</p>
-                                    </div>
-                                    <div class=" total__desc">
-                                        <p>Законченных покупок.</p>
-                                    </div>
-                                </li>
-                                <li class="benefits__item--why process__item total__item">
-                                    <div class="benefits__icon--why icon__total"> </div>
-                                    <div class="total__numbers">
-                                        <p>789 654</p>
-                                    </div>
-                                    <div class=" total__desc">
-                                        <p>Просмотров магазина.</p>
-                                    </div>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">            <!-- START -->
-
-            <div class="wrapper__start">
-                <div class="container__start">
-                    <div class="container__title container__title--start">
-                        <h2>Как Начать?</h2>
-                    </div>
-
-                    <ul class="start__list">
-                        <li class="benefits__item--why start__item start__item--1">
-
-                            <div class="process__icon process__icon--1 decor__circle"> </div>
-                            <div class="benefits__desc--why start__desc">
-                                <p>Заполните
-                                    форму.</p>
-                            </div>
-                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
-                        </li>
-                        <li class="benefits__item--why start__item start__item--2">
-
-                            <div class="process__icon process__icon--2 decor__circle"> </div>
-                            <div class="benefits__desc--why start__desc">
-                                <p>Обсудим ваши задачи
-                                    с менеджером.</p>
-                            </div>
-                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
-
-                        </li>
-                        <li class="benefits__item--why start__item start__item--3">
-                            <div class="process__icon process__icon--3 decor__circle"> </div>
-                            <div class="benefits__desc--why start__desc">
-                                <p>Сформируем
-                                    пакет услуг.</p>
-                            </div>
-                            <div class="decor__arrow"><img src="./img/arrow.svg" alt=""></div>
-
-                        </li>
-                        <li class="benefits__item--why start__item start__item--4">
-                            <div class="process__icon process__icon--4 decor__circle"> </div>
-                            <div class="benefits__desc--why start__desc">
-                                <p> Заключим
-                                    договор.</p>
-
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <section class="feedback">
-                <div class="container feedback__container">
-                    <div class="feedback__wrapper">
-                        <div class="feedback__content">
-                            <h2 class="feedback__title">Пожалуйста, оставьте свои контакты</h2>
-
-                            <!-- Form -->
-                            <form class="feedback__form" action="https://www.url_address.dn">
-
-                                <!-- User name -->
-                                <div class="feedback__input-block">
-                                    <label for="userName" class="feedback__label-prompt"><sup>*</sup>Обязательно для
-                                        ввода.
-                                        Формат записи: Алексей</label>
-                                    <input type="text" id="userName" name="userName" class="feedback__input"
-                                        placeholder="Как к вам обращаться" pattern="[A-ZА-Я][a-zа-яё]{5,}"
-                                        maxlength="20" required>
-                                    <label for="userName" class="feedback__label">Имя<sup>*</sup></label>
-                                    <!-- <label for="userName" id="userNameValid" class="feedback__label">Введено верно</label>
-                  <label for="userName" id="userNameInvalid" class="feedback__label">Введено неверно</label> -->
-                                </div>
-
-                                <!-- User proff -->
-                                <div class="feedback__input-block">
-                                    <label for="userProff" class="feedback__label-prompt"><sup>*</sup>Обязательно для
-                                        выбора</label>
-                                    <select name="userProff" id="userProff" class="feedback__input" required>
-                                        <option value="" selected>Выберите род деятельности</option>
-                                        <option value="director">Руководитель</option>
-                                        <option value="booker">Бухгалтер</option>
-                                        <option value="it-specialist">IT-специалист</option>
-                                        <option value="self-employed">Самозанятый</option>
-                                        <option value="un-employed">Безработный</option>
-                                        <option value="other">Другое</option>
-                                    </select>
-                                    <label for="userProff" class="feedback__label">Кто вы<sup>*</sup></label>
-                                </div>
-
-                                <!-- User phone -->
-                                <div class="feedback__input-block">
-                                    <label for="userPhone" class="feedback__label-prompt"><sup>*</sup>Обязательно для
-                                        ввода.
-                                        Формат записи: +7 (ххх) хх-хх-ххх</label>
-                                    <input type="tel" id="userPhone" name="userPhone" class="feedback__input"
-                                        placeholder="+7 (123) 12-12-123"
-                                        pattern="\+7\s[\(][0-9]{3}[\)]\s[0-9]{2}[\-][0-9]{2}[\-][0-9]{3}" minlength="18"
-                                        maxlength="18" required>
-                                    <label for="userPhone" class="feedback__label">Телефон<sup>*</sup></label>
-                                </div>
-
-                                <!-- User domain -->
-                                <div class="feedback__input-block">
-                                    <label for="userUrl" class="feedback__label-prompt">Необязательно для
-                                        заполнения</label>
-                                    <input type="url" id="userUrl" name="userUrl" class="feedback__input"
-                                        placeholder=" ">
-                                    <label for="userUrl" class="feedback__label">Домен (если есть)</label>
-                                </div>
-
-                                <!-- User e-mail -->
-                                <div class="feedback__input-block">
-                                    <label for="userEmail" class="feedback__label-prompt"><sup>*</sup>Обязательно для
-                                        ввода.
-                                        Формат записи: example@domain.dz</label>
-                                    <input type="email" id="userEmail" name="userEmail" class="feedback__input"
-                                        placeholder="Нужен для связи" maxlength="30" required>
-                                    <label for="userEmail" class="feedback__label">E-mail<sup>*</sup></label>
-                                </div>
-
-                                <!-- Consent & Button -->
-                                <div class="feedback__form-footer">
-                                    <div class="feedback__consent">
-                                        Оправляя форму, вы соглашаетесь на сбор, обработку
-                                        и хранение ваших данных сотрудниками компании.<br>
-                                        <a href="#">Политика конфиденциальности</a>
-                                    </div>
-                                    <div class="triangle btn__why">
-                                            <button type="submit" name="option" class="btn__hero  " value="Отправить">Отправить
-                                            <a href="#"></a>
-                                        </button>
-                                        <div class="btn__triangle"></div>
-                                    </div>
-                                </div>
-
-                            </form>
-
-                        </div><!-- /feedback__content -->
-                    </div><!-- /feedback__wrapper -->
-                </div><!-- /container -->
-            </section>
-            <!-- /Feedback -->
-        </div>
-        <div class="container">
-            <div class="wrapper__footer">
-                <footer class="header footer">
-                    <a href="/index.html" class="logo">
-                        Проводник
-                    </a>
-                    <nav class="menu menu--footer">
-                        <ul class="menu__list menu__list--footer">
-                            <li class="menu__item menu__item_active"> <a href="/index.html" class="menu__link">услуги
-                                </a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/service.html" class="menu__link">Цены
-                                </a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">как это
-                                    работает </a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html"
-                                    class="menu__link">блог</a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">О
-                                    компании</a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html"
-                                    class="menu__link">производителям</a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html"
-                                    class="menu__link">проекты</a>
-                            </li>
-                            <li class="menu__item menu__item_active"> <a href="/reviews.html"
-                                    class="menu__link">контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <address>
-                        <div class="contacts contacts__footer">
-                            <div class="footer__info">
-                                <div class="footer__info-item">
-                                    <div class="footer__icon icon-copyright"> <img src="./img/copy.png" alt=""></div>
-                                    <div class="footer__text">2018.<br> Все права защищены.</div>
-                                </div>
-                            </div>
-                            <div class="contacts__adress">
-                                <img src="./img/Vector.svg" class="adress__icon" alt="">
-                                г. Москва, ул. Улица, 20 с. 1 </div>
-                            <div class="contacts__number">
-                                <img src="./img/phone1.svg" class="adress__icon" alt="">
-                                <a href="tel:+71231231288">8(123) 123-12-88 </a>
-                                <div class="contacts__feedback">
-                                    <a href="mailto:info@provodnik.ru" class="contacts__email">info@provodnik.ru</a>
-                                </div>
-
-                            </div>
-                            <div class="triangle">
-                                <div class="btn__hero btn__hero--purple">
-                                    <a>
-                                        Обратный звонок
+            <div class="container">
+                <div class="wrapper__footer">
+                    <footer class="header footer">
+                        <a href="/index.html" class="logo">
+                            Проводник
+                        </a>
+                        <nav class="menu menu--footer">
+                            <ul class="menu__list menu__list--footer">
+                                <li class="menu__item menu__item_active"> <a href="/index.html"
+                                        class="menu__link">услуги
                                     </a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/service.html"
+                                        class="menu__link">Цены
+                                    </a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">как
+                                        это
+                                        работает </a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                        class="menu__link">блог</a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html" class="menu__link">О
+                                        компании</a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                        class="menu__link">производителям</a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                        class="menu__link">проекты</a>
+                                </li>
+                                <li class="menu__item menu__item_active"> <a href="/reviews.html"
+                                        class="menu__link">контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <address>
+                            <div class="contacts contacts__footer">
+                                <div class="footer__info">
+                                    <div class="footer__info-item">
+                                        <div class="footer__icon icon-copyright"> <img src="./img/copy.png" alt="">
+                                        </div>
+                                        <div class="footer__text">2018.<br> Все права защищены.</div>
+                                    </div>
                                 </div>
-                                <div class="btn__triangle"></div>
+                                <div class="contacts__adress">
+                                    <img src="./img/Vector.svg" class="adress__icon" alt="">
+                                    г. Москва, ул. Улица, 20 с. 1 </div>
+                                <div class="contacts__number">
+                                    <img src="./img/phone1.svg" class="adress__icon" alt="">
+                                    <a href="tel:+71231231288">8(123) 123-12-88 </a>
+                                    <div class="contacts__feedback">
+                                        <a href="mailto:info@provodnik.ru" class="contacts__email">info@provodnik.ru</a>
+                                    </div>
+
+                                </div>
+                                <div class="triangle">
+                                    <div class="btn__hero btn__hero--purple">
+                                        <a>
+                                            Обратный звонок
+                                        </a>
+                                    </div>
+                                    <div class="btn__triangle"></div>
+                                </div>
                             </div>
-                        </div>
 
-                    </address>
-                    <!-- <div class="footer__burger"> -->
+                        </address>
+                        <!-- <div class="footer__burger"> -->
 
-                    <!-- Burger button -->
-                    <input type="checkbox" id="footerBurgerBtn" class="footer__burger-btn">
-                    <label for="footerBurgerBtn" id="footerBurgerBtnLabel" class="footer__burger-label">
-                        <span></span>
-                    </label>
+                        <!-- Burger button -->
+                        <input type="checkbox" id="footerBurgerBtn" class="footer__burger-btn">
+                        <label for="footerBurgerBtn" id="footerBurgerBtnLabel" class="footer__burger-label">
+                            <span></span>
+                        </label>
 
-                    <!-- Burger menu -->
-                    <!-- <ul class="footer__burger-menu">
+                        <!-- Burger menu -->
+                        <!-- <ul class="footer__burger-menu">
             <li class="footer__burger-logo">Проводник</li>
             <li><a href="#" class="footer__burger-link">Услуги</a></li>
             <li><a href="#" class="footer__burger-link">Цены</a></li>
@@ -758,14 +770,14 @@
             <li><a href="#" class="footer__burger-link">Контакты</a></li>
           </ul> -->
 
-                    <!-- </div> -->
-                </footer>
+                        <!-- </div> -->
+                    </footer>
+                </div>
             </div>
-        </div>
 
-        <div class="container">
-            <a href="./secondpage.html"> ВТОРАЯ страница</a>
-        </div>
+            <div class="container">
+                <a href="./secondpage.html"> ВТОРАЯ страница</a>
+            </div>
     </main>
 
 </body>

@@ -3,11 +3,7 @@
     margin: 0 auto;
   }
   
-  .process__img--back {
-    position: absolute;
-    top: 2.625rem;
-    left: 2.5rem;
-  }
+
   
   .container__process {
     width: 100%;
@@ -15,8 +11,14 @@
     height: 47.8125rem;
     margin: 0 auto;
     position: relative;
+
   }
-  
+    .process__img--back {
+    position: absolute;
+    top: 2.625rem;
+    left: 2.5rem;
+    display: block;
+  }
   .circle__process {
     position: absolute;
     border-radius: 50%;
@@ -24,6 +26,7 @@
     height: 32.5rem;
     left: 29.5%;
     top: 23%;
+    display: block;
   
     border: .1875rem solid #000000;
     box-sizing: border-box;

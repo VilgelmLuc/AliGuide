@@ -115,15 +115,17 @@ main {
 }
 
 
-div {
+/* div {
   display: block;
-}
+  border: 2px solid;
+} */
 
 
 .container {
   margin: 0 auto;
   width: 100%;
   max-width: 120rem;
+  box-sizing: content-box;
 }
 
 
